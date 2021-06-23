@@ -27,6 +27,7 @@ import java.util.Scanner;
 public class Main {
 	
 	public static final int iterations = 5206;
+	public static final int timeBetweenIterations = 100;
 	public static final int screenHeight = 40;
 	public static final int screenWidth = 170;
 	
@@ -71,7 +72,7 @@ public class Main {
 			System.out.println("Iteration " + i + " of " + iterations);
 			System.out.print(game);
 			game.next();
-			Thread.sleep(500);
+			Thread.sleep(timeBetweenIterations);
 		}
 	}
 }
