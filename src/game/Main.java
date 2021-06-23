@@ -50,7 +50,7 @@ public class Main {
 		// Ask for cells to insert
 		while (!inputLine.contentEquals("I")) {
 
-			System.out.print("Introduce a cell by it's coordinates \"3, 4\" or \"I\" to start the simulation: ");
+			System.out.print("Introduce a cell by its coordinates \"3, 4\" or \"I\" to start the simulation: ");
 			inputLine = keyboard.nextLine();
 			
 			if (!inputLine.contentEquals("I")) {
