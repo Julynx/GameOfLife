@@ -7,6 +7,9 @@ package game;
  * @date 23/06/2021
  */
 public class GameOfLife {
+	// Characters used to print dead and alive cells
+	private static final char aliveChar = 'o';
+	private static final char deadChar = '-';
 	// Width and Height of the simulation pool
 	private int width = 4000;
 	private int height = 4000;
@@ -114,7 +117,7 @@ public class GameOfLife {
 		
 		for (int i = offsetx; i < widthPrinted  + offsetx; i++) {
 			for (int j = offsety; j < heightPrinted + offsety; j++) {
-				str += ((this.pool[i][j] == 1) ? 'o' : '-') /*+ ' '*/;
+				str += ((this.pool[i][j] == 1) ? aliveChar: deadChar);
 			}
 			str += "\n";
 		}
