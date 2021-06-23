@@ -1,7 +1,7 @@
 # GameOfLife
 Conway's Game of Life - Simple Text Based Java Implementation
 
-![GameOfLife](https://user-images.githubusercontent.com/64993676/123083535-6c8aa680-d420-11eb-8c88-9cb489d071a2.png)
+![GameOfLife](https://user-images.githubusercontent.com/64993676/123103242-17598f80-d436-11eb-843d-54c74e9534f8.png)
 
 IMPORTANT: If you are using Eclipse you must unlock the console by disabling the
 option "Limit Console Output" as shown below:
