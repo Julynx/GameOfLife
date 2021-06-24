@@ -13,7 +13,7 @@ git clone https://github.com/Julynx/GameOfLife
 ```
 ### Change directory to src
 ```
-cd GameOfLife/src/^
+cd GameOfLife/src/
 ```
 ### Compile and run
 ```
@@ -21,7 +21,9 @@ cd GameOfLife/src/^
  
  java game/Main
 ```
-IMPORTANT: If you are using Eclipse you must unlock the console by disabling the
+##Important 
+
+If you are using Eclipse you must unlock the console by disabling the
 option "Limit Console Output":
     
     Window > Preferences > Run/Debug > Console > Limit Console Output [ ]
