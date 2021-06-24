@@ -7,3 +7,14 @@ IMPORTANT: If you are using Eclipse you must unlock the console by disabling the
 option "Limit Console Output":
     
     Window > Preferences > Run/Debug > Console > Limit Console Output [ ]
+## Build & Run Instructions
+
+Open up a terminal and run the following commands
+
+### Clone this repo
+
+git clone https://github.com/Julynx/GameOfLife
+
+### Change directory to src
+
+cd 
