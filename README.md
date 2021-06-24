@@ -24,6 +24,7 @@ java game/Main
 ## Important 
 
 If you are using Eclipse you must unlock the console by disabling the
-option "Limit Console Output":
-    
-    Window > Preferences > Run/Debug > Console > Limit Console Output [ ]
+option "Limit Console Output"
+```    
+Window > Preferences > Run/Debug > Console > Limit Console Output [ ]
+```
